@@ -11,12 +11,15 @@ const displayReports = reports => {
         const reportDiv = document.createElement('div');
         reportDiv.classList.add('rows');
         reportDiv.innerHTML = `
-<div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
+<div class="card p-1 h-10">
+ <img src="${report.image_url}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">${report.title}</h5>
+                            <p class="card-text">From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the 
+                            best fashion blogs out there, and for even more inspiration, do head to our separate black fashion influencer roundup.
+                            From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the 
+best fashion blogs out there, and for even more inspiration, do head to our separate black fashion influencer roundup.
+</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
