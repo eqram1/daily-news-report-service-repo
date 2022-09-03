@@ -15,11 +15,9 @@ const displayReports = reports => {
  <img src="${report.image_url}" class="card-img-top" alt="...">
                         <div class="card-body" style="width: 18rem;">
                             <h5 class="card-title">${report.title}</h5>
-                            <p class="card-text">From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the 
-                            best fashion blogs out there, and for even more inspiration, do head to our separate black fashion influencer roundup.
-                            From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the 
-best fashion blogs out there, and for even more inspiration, do head to our separate black fashion influencer roundup.
-</p>
+                            <p class="card-text">
+                              From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the 
+                            best fashion blogs out there, and for even more inspiration...</p>
                         </div>
                         <div class="card-footer">
         <small class="text-muted">Author image-${report.img}Author name-${report.name} ,Total view ${report.total_view}</small>
