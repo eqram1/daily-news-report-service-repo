@@ -22,10 +22,10 @@ best fashion blogs out there, and for even more inspiration, do head to our sepa
 </p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-`;
+        <small class="text-muted">Author image-${report.img}Author name-${report.name} ,Total view ${report.total_view}</small>
+      </div >
+                    </div >
+    `;
         reportsContainer.appendChild(reportDiv);
     })
 }
