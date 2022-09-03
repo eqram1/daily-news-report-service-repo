@@ -13,7 +13,7 @@ const displayReports = reports => {
         reportDiv.innerHTML = `
 <div class="card p-1 h-10">
  <img src="${report.image_url}" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <div class="card-body" style="width: 18rem;">
                             <h5 class="card-title">${report.title}</h5>
                             <p class="card-text">From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the 
                             best fashion blogs out there, and for even more inspiration, do head to our separate black fashion influencer roundup.
